@@ -1,0 +1,60 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# .gitignore 파일 내용
+/build/
+*.iml
+*.ipr
+*.iws
+*.jar
+*.war
+/out/
+
+*.properties
+
+# 로그 파일 등
+*.log
+
+# macOS에서 생성되는 폴더 메타데이터
+.DS_Store
+
+# 3. 테스트/보고서 파일
+/target/
+/reports/
+
+/.gradle
