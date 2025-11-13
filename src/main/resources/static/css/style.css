@@ -246,7 +246,7 @@ header button {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   
   /* 1. 이미지 파일 경로 설정 */
-  background-image: url('../img/my_banner.jpeg');
+  background-image: url('/blood_calendar/img/my_banner.jpeg');
     
   /* 2. 이미지가 영역을 꽉 채우도록 설정 */
   background-size: cover; 
