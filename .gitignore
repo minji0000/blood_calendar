@@ -45,5 +45,16 @@ out/
 *.war
 /out/
 
+*.properties
+
 # 로그 파일 등
 *.log
+
+# macOS에서 생성되는 폴더 메타데이터
+.DS_Store
+
+# 3. 테스트/보고서 파일
+/target/
+/reports/
+
+/.gradle

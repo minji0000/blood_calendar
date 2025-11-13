@@ -1,0 +1,31 @@
+<div id="setting-modal" class="modal-overlay" style="display:none;">
+  <div class="modal-content">
+      <h2>생리 추가</h2>
+      <form id="saveform">
+          <div class="form-group">
+              <label for="name">이름</label>
+              <input type="text" id="name" name="name" required placeholder="누구야!">
+          </div>
+
+          <div class="form-group">
+              <label for="start-date">시작 날짜</label>
+              <input type="date" id="start-date" name="startDate" required>
+          </div>
+
+          <div class="form-group">
+              <label for="end-date">종료 날짜</label>
+              <input type="date" id="end-date" name="endDate"> 
+          </div>
+
+          <div class="form-group">
+              <label for="color">원하는 색 골라요 ~ </label>
+              <input type="color" id="color" name="color" value="#FF6347"> 
+          </div>
+
+          <div class="button-group">
+              <button type="submit" id="save-btn" class="btn primary">저장</button>
+              <button type="button" id="close-modal-btn" class="btn secondary">취소</button>
+          </div>
+      </form>
+  </div>
+</div>
